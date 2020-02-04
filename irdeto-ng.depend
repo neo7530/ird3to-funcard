@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1575372110 source:r:\irdeto-smartcard-gcc\fuse.c
+	<avr/io.h>
+
+1576568483 source:r:\irdeto-smartcard-gcc\io.c
+	"config.h"
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	"io.h"
+
+1580811078 r:\irdeto-smartcard-gcc\config.h
+
+1576479257 r:\irdeto-smartcard-gcc\io.h
+	"config.h"
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+
+1580468420 source:r:\irdeto-smartcard-gcc\fifo.c
+	"fifo.h"
+
+1580468432 r:\irdeto-smartcard-gcc\fifo.h
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1580822813 source:r:\irdeto-smartcard-gcc\uart.c
+	"config.h"
+	"uart.h"
+	"fifo.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1580810972 r:\irdeto-smartcard-gcc\uart.h
+	<avr/io.h>
+
+1580734284 source:r:\irdeto-smartcard-gcc\main.c
+	"config.h"
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"uart.h"
+	<string.h>
+
+1580826861 source:r:\irdeto-smartcard-gcc\irdeto_core.c
+	"irdeto_core.h"
+	<avr/pgmspace.h>
+
+1580813551 r:\irdeto-smartcard-gcc\irdeto_core.h
+	<avr/io.h>
+
